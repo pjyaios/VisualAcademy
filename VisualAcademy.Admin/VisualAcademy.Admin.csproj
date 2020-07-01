@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ChartJs.Blazor\ChartJs.Blazor.csproj" />
+    <ProjectReference Include="..\VisualAcademy.Models\VisualAcademy.Models.csproj" />
   </ItemGroup>
 
   <ItemGroup>

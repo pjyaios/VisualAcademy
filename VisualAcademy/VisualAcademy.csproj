@@ -25,4 +25,8 @@
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\VisualAcademy.Models\VisualAcademy.Models.csproj" />
+  </ItemGroup>
+
 </Project>
