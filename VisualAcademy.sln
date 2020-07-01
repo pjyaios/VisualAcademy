@@ -11,6 +11,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{452372DC-24E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChartJs.Blazor", "ChartJs.Blazor\ChartJs.Blazor.csproj", "{F8B8D6FA-1B1B-4B36-A212-8AA599CE9A4B}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "VisualAcademy.SqlServer", "VisualAcademy.SqlServer\VisualAcademy.SqlServer.sqlproj", "{DE051A17-513A-4187-A788-64C11595CBDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy.Models", "VisualAcademy.Models\VisualAcademy.Models.csproj", "{C956FB2B-47BC-4746-9259-C6EE517C0B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy.Models.Tests", "VisualAcademy.Models.Tests\VisualAcademy.Models.Tests.csproj", "{8D5FF04A-2F57-495B-AEB0-24FD85B8F3D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy.Apis", "VisualAcademy.Apis\VisualAcademy.Apis.csproj", "{4BF63ED4-297F-4035-B6F7-A96239DDD2B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy.SingleSignOn", "VisualAcademy.SingleSignOn\VisualAcademy.SingleSignOn.csproj", "{1CC99425-875E-4EF1-94F2-AB59A6CA6E5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +39,28 @@ Global
 		{F8B8D6FA-1B1B-4B36-A212-8AA599CE9A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8B8D6FA-1B1B-4B36-A212-8AA599CE9A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8B8D6FA-1B1B-4B36-A212-8AA599CE9A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE051A17-513A-4187-A788-64C11595CBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE051A17-513A-4187-A788-64C11595CBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE051A17-513A-4187-A788-64C11595CBDC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DE051A17-513A-4187-A788-64C11595CBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE051A17-513A-4187-A788-64C11595CBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE051A17-513A-4187-A788-64C11595CBDC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C956FB2B-47BC-4746-9259-C6EE517C0B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C956FB2B-47BC-4746-9259-C6EE517C0B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C956FB2B-47BC-4746-9259-C6EE517C0B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C956FB2B-47BC-4746-9259-C6EE517C0B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D5FF04A-2F57-495B-AEB0-24FD85B8F3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5FF04A-2F57-495B-AEB0-24FD85B8F3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5FF04A-2F57-495B-AEB0-24FD85B8F3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5FF04A-2F57-495B-AEB0-24FD85B8F3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF63ED4-297F-4035-B6F7-A96239DDD2B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF63ED4-297F-4035-B6F7-A96239DDD2B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF63ED4-297F-4035-B6F7-A96239DDD2B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF63ED4-297F-4035-B6F7-A96239DDD2B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC99425-875E-4EF1-94F2-AB59A6CA6E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC99425-875E-4EF1-94F2-AB59A6CA6E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC99425-875E-4EF1-94F2-AB59A6CA6E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC99425-875E-4EF1-94F2-AB59A6CA6E5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
