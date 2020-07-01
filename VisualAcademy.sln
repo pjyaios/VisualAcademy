@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualAcademy", "VisualAcademy\VisualAcademy.csproj", "{A886E01D-F8AE-45D0-B80C-CAD0F5AE6043}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy.Admin", "VisualAcademy.Admin\VisualAcademy.Admin.csproj", "{9F57A701-09FC-4992-A8D8-903ECB761825}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualAcademy.Admin", "VisualAcademy.Admin\VisualAcademy.Admin.csproj", "{9F57A701-09FC-4992-A8D8-903ECB761825}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{452372DC-24ED-48AB-8CAF-DEE3A942A68C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChartJs.Blazor", "ChartJs.Blazor\ChartJs.Blazor.csproj", "{F8B8D6FA-1B1B-4B36-A212-8AA599CE9A4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{9F57A701-09FC-4992-A8D8-903ECB761825}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F57A701-09FC-4992-A8D8-903ECB761825}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F57A701-09FC-4992-A8D8-903ECB761825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B8D6FA-1B1B-4B36-A212-8AA599CE9A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B8D6FA-1B1B-4B36-A212-8AA599CE9A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B8D6FA-1B1B-4B36-A212-8AA599CE9A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B8D6FA-1B1B-4B36-A212-8AA599CE9A4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8B8D6FA-1B1B-4B36-A212-8AA599CE9A4B} = {452372DC-24ED-48AB-8CAF-DEE3A942A68C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA58539D-AC57-4E20-AD1C-9921B77DA9D3}
