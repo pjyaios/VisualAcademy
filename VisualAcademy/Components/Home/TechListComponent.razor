@@ -1,0 +1,20 @@
+﻿<h3>TechListComponent</h3>
+
+@code {
+
+    private List<Tech> teches;
+
+    public List<Tech> Teches
+    {
+        get { return teches; }
+        set { teches = value; }
+    }
+
+    protected override void OnInitialized()
+    {
+        teches = new List<Tech>()
+        {
+            new Tech { Id = 1, Title = "Azure" }
+        };
+    }
+}
